@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <vendor>Boot Camp for Linux</vendor>
+  <vendor_url>https://github.com/fersbrando/Macbook-Pro-2012---Linux-Mint---Bootcamp-A1278-</vendor_url>
+  <icon_name>bootcamp</icon_name>
+  <action id="io.github.fersbrando.bootcamp.helper">
+    <description>Change Mac hardware settings</description>
+    <description xml:lang="es">Cambiar ajustes del hardware de la Mac</description>
+    <message>Boot Camp needs your password to change keyboard, lid or fan service settings</message>
+    <message xml:lang="es">Boot Camp necesita tu contraseña para cambiar el teclado, la tapa o el servicio del ventilador</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/opt/bootcamp/bc_helper.py</annotate>
+  </action>
+</policyconfig>

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=Boot Camp
+GenericName=Mac Control Panel
+GenericName[es]=Panel de control de la Mac
+GenericName[ru]=Панель управления Mac
+GenericName[zh_CN]=Mac 控制面板
+GenericName[ja]=Mac コントロールパネル
+Comment=Trackpad, keyboard, sound, display, fan, power and drivers for your MacBook
+Comment[es]=Trackpad, teclado, sonido, pantalla, ventilador, energía y drivers de tu MacBook
+Comment[ru]=Трекпад, клавиатура, звук, экран, вентилятор, питание и драйверы MacBook
+Comment[zh_CN]=MacBook 的触控板、键盘、声音、显示器、风扇、电源和驱动程序
+Comment[ja]=MacBook のトラックパッド・キーボード・サウンド・ディスプレイ・ファン・電源・ドライバ
+Exec=bootcamp
+Icon=bootcamp
+Terminal=false
+Categories=Settings;HardwareSettings;System;
+Keywords=mac;macbook;apple;trackpad;touchpad;fan;keyboard;backlight;battery;lid;bootcamp;
+StartupWMClass=bootcamp
